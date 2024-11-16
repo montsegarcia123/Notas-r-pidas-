@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notas Rápidas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header class="banner">
+    <h1>📝 Notas Rápidas</h1>
+  </header>
+  
+  <main>
+    <section class="form-container">
+      <form id="notaForm">
+        <textarea id="notaInput" placeholder="Escribe tu nota aquí..." required></textarea>
+        <button type="submit">Guardar Nota</button>
+      </form>
+    </section>
+    
+    <section>
+      <h2>Tus notas</h2>
+      <ul id="notasList"></ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
